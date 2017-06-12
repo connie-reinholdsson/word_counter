@@ -10,12 +10,13 @@ This is a word counter tech test written in JavaScript. The task is to write a J
 1. Punctuation and capitalisation can be ignored.
 2. TDD is expected.
 
-
 ### My approach
 1. **User Stories**: Broke down problem into user stories.
 2. **Mock-up**: Mock-up page of how I imagine the final product will look, (see image below).
 
 ![Mock-up](https://github.com/connie-reinholdsson/word_counter_tech_test/blob/readme/images/20170612_121153.jpg)
+
+3. **Node.js vs Browser**: After conducting research and experimenting with both, I decided to use Node as it offers a simple solution to reading and loading files and allows me to easily experiment with syntax in the terminal.
 
 ### Key features
 
