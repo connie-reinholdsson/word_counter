@@ -25,4 +25,12 @@ describe('wordCounter', function(){
       expect(wordCounter.text).toEqual('once upon a time, there was a dog called otto.');
     });
   });
+
+  describe('splitTextIntoWords', function(){
+    it('splits string into separate words and stores in in array', function(){
+      wordCounter.replaceSpecialCharacters();
+      wordCounter.splitTextIntoWords();
+      expect(wordCounter.words).toEqual(["Once", "upon", "a", "time", "there", "was", "a", "dog", "called", "Otto"]);
+    });
+  });
 });

@@ -1,6 +1,7 @@
 
 function WordCounter(text){
   this.text = text;
+  this.words = [];
 }
 
 WordCounter.prototype.replaceSpecialCharacters = function() {
@@ -10,6 +11,10 @@ WordCounter.prototype.replaceSpecialCharacters = function() {
 
 WordCounter.prototype.convertToLowerCase = function() {
   this.text = this.text.toLowerCase();
+};
+
+WordCounter.prototype.splitTextIntoWords = function() {
+  this.words = this.text.split(' ');
 };
 
 var fs = require('fs');
