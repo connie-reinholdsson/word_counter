@@ -31,7 +31,7 @@ WordCounter.prototype.countOccurances = function() {
 };
 
 WordCounter.prototype.storePrimeNumbers = function() {
-  for(var i = 1; i <= 100 ; i++) {
+  for(var i = 2; i <= 100 ; i++) {
           var isPrime = true;
           for(var j = 2; j < i; j++) {
               if(i % j === 0){
