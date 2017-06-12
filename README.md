@@ -15,3 +15,25 @@ This is a word counter tech test written in JavaScript. The task is to write a J
 ### Technologies
 
 ### Deployment instructions
+
+### User Stories
+```
+As a user,
+So that I can use the application,
+I want to be able to feed the application a text file.
+```
+```
+As a user,
+So that I can use the application,
+I want to be able to see a list of all the individual words that appear in the text file.
+```
+```
+As a user,
+So that I can use the application,
+I want to be able to see the number of times each word appears in the text file.
+```
+```
+As a user,
+So that I can use the application,
+I want to be able to see if that word is a prime number.
+```
