@@ -1,7 +1,7 @@
 # Word Counter
 
 ### Overview
-This is a word counter tech test written in JavaScript. The task was to write a JavaScript application that takes any given text file and outputs the following:
+This is a word counter written in JavaScript. The task was to write a JavaScript application that takes any given text file and outputs the following:
 
 1. Individual words that appear and the number of times the word occurs in that file.
 2. Whether the number of times each word occurs is a prime number.
@@ -16,7 +16,7 @@ This is a word counter tech test written in JavaScript. The task was to write a 
 
 ### My approach
 1. **User Stories**: Broke down problem into user stories.
-2. **Mock-up**: Mock-up page of how I imagine the final product will look, (see image below).
+2. **Mock-up**: Mock-up page of how I imagine the final product would look, (see image below).
 
 ![Mock-up](https://github.com/connie-reinholdsson/word_counter_tech_test/blob/readme-update/images/20170612_121153.jpg)
 
@@ -26,7 +26,7 @@ This is a word counter tech test written in JavaScript. The task was to write a 
 ### Future improvements
 - Write a ```replaceSpecialCharacters``` method in one line using ```replace```.
 - Use local variables for ```this.words```, ```this.wordCount``` and ```this.primeNumbers```.
-- Find a way to test ```printOutput```.
+- Test ```printOutput``` with Jasmine.
 
 ### Technologies
 - JavaScript
@@ -36,28 +36,28 @@ This is a word counter tech test written in JavaScript. The task was to write a 
 
 ### Deployment instructions
 1. ```git clone https://github.com/connie-reinholdsson/word_counter.git```
-2. Run ```cd word_counter```
+2. Run ```cd word_counter``` in terminal
 2. Run ```node src/wordCounter.js``` in terminal
 3. To change text file, replace file in 'book.txt'.
 
 ### User Stories
 ```
 As a user,
-So that I can use the application,
+So that I can use Word Counter,
 I want to be able to feed the application a text file.
 ```
 ```
 As a user,
-So that I can use the application,
+So that I can use Word Counter,
 I want to be able to see a list of all the individual words that appear in the text file.
 ```
 ```
 As a user,
-So that I can use the application,
+So that I can use Word Counter,
 I want to be able to see the number of times each word appears in the text file.
 ```
 ```
 As a user,
-So that I can use the application,
-I want to be able to see if that word is a prime number.
+So that I can use Word Counter,
+I want to be able to see if the number of times a word occurs is a prime number.
 ```
