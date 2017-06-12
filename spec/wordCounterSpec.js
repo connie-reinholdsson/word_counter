@@ -11,4 +11,11 @@ describe('wordCounter', function(){
       expect(wordCounter.text).toEqual('Once upon a time, there was a dog called Otto.');
     });
   });
+
+  describe('replaceSpecialCharacters', function() {
+    it('replaces all characters and whitespace except for letters', function(){
+      wordCounter.replaceSpecialCharacters();
+      expect(wordCounter.text).toEqual('Once upon a time there was a dog called Otto');
+    });
+  });
 });
