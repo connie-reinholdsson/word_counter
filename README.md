@@ -10,6 +10,11 @@ This is a word counter tech test written in JavaScript. The task is to write a J
 1. Punctuation and capitalisation can be ignored.
 2. TDD is expected.
 
+
+### My approach
+1. **User Stories**: Broke down problem into user stories.
+2. **Mock-up**: Mock-up page of how I imagine the final product will look, (see image below).
+
 ### Key features
 
 ### Technologies
