@@ -8,7 +8,7 @@ describe('wordCounter', function(){
 
   describe('initialize', function(){
     it('initializes with parameter in string format', function(){
-      expect(wordCounter.text).toEqual('Once upon a time, there was a dog called Otto.')
+      expect(wordCounter.text).toEqual('Once upon a time, there was a dog called Otto.');
     });
   });
 });
