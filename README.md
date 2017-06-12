@@ -27,6 +27,7 @@ This is a word counter tech test written in JavaScript. The task is to write a J
 
 ### Deployment instructions
 1. ```git clone https://github.com/connie-reinholdsson/word_counter_tech_test.git```
+2. Run ```cd word_counter_tech_test```
 2. Run ```node src/wordCounter.js``` in terminal
 3. To change text file, replace file in 'book.txt'.
 
