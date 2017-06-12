@@ -3,6 +3,7 @@ function WordCounter(text){
   this.text = text;
   this.words = [];
   this.wordCount = {};
+  this.primeNumbers = [];
 }
 
 WordCounter.prototype.replaceSpecialCharacters = function() {
@@ -29,12 +30,30 @@ WordCounter.prototype.countOccurances = function() {
     }
 };
 
-WordCounter.prototype.printOutput = function() {
-  for (var i in this.wordCount) {
-    console.log(i, this.wordCount[i]);
-  }
+WordCounter.prototype.storePrimeNumbers = function() {
+  for(var i = 1; i <= 100 ; i++) {
+          var isPrime = true;
+          for(var j = 2; j < i; j++) {
+              if(i % j === 0){
+                  isPrime = false;
+              }
+          }
+          if(isPrime === true){
+              this.primeNumbers.push(i);
+          }
+      }
 };
 
+WordCounter.prototype.printOutput = function() {
+  for (var i in this.wordCount) {
+    if (this.primeNumbers.includes(this.wordCount[i])) {
+      console.log(i, this.wordCount[i] + " PRIME");
+    }
+    else {
+      console.log(i, this.wordCount[i] + " NOT PRIME");
+    }
+  }
+};
 
 var fs = require('fs');
 fs.readFile('book.txt', 'utf8', function(err, data) {
@@ -45,6 +64,6 @@ wordCounter.replaceSpecialCharacters();
 wordCounter.convertToLowerCase();
 wordCounter.splitTextIntoWords();
 wordCounter.countOccurances();
+wordCounter.storePrimeNumbers();
 wordCounter.printOutput();
-
 });
