@@ -1,4 +1,4 @@
-# Book Tech Test
+# Word Counter Tech Test
 
 ### Overview
 This is a word counter tech test written in JavaScript. The task is to write a JavaScript application that takes any given text file and outputs the following:
@@ -14,6 +14,8 @@ This is a word counter tech test written in JavaScript. The task is to write a J
 ### My approach
 1. **User Stories**: Broke down problem into user stories.
 2. **Mock-up**: Mock-up page of how I imagine the final product will look, (see image below).
+
+![Mock-up](https://github.com/connie-reinholdsson/word_counter_tech_test/blob/readme/images/20170612_120649.jpg)
 
 ### Key features
 
