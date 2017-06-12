@@ -43,4 +43,12 @@ describe('wordCounter', function(){
       expect(wordCounter.wordCount).toEqual({"once" : 1, "upon" : 1, "a" : 2, "time" : 1, "there" : 1, "was" : 1, "dog" : 1, "called" : 1, "otto" : 1});
     });
   });
+
+
+  describe('storePrimeNumbers', function() {
+    it('checks prime numbers are stored', function() {
+      wordCounter.storePrimeNumbers();
+      expect(wordCounter.primeNumbers).toContain(2, 3, 5, 7, 31, 73, 11, 47, 97);
+    });
+  });
 });
