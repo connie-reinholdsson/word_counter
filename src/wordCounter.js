@@ -7,8 +7,7 @@ function WordCounter(text){
 }
 
 WordCounter.prototype.replaceSpecialCharacters = function() {
-  this.text = this.text.replace(/(\r\n|\n|\r)/gm," ");
-  this.text = this.text.replace(/[^a-z\d\s]+/gi,'');
+  this.text = this.text.replace(/(\r\n|\n|\r)/gm," ").replace(/[^a-z\d\s]+/gi,'');
 };
 
 WordCounter.prototype.convertToLowerCase = function() {

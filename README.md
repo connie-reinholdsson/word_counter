@@ -1,4 +1,4 @@
-# Word Counter Tech Test
+# Word Counter
 
 ### Overview
 This is a word counter tech test written in JavaScript. The task was to write a JavaScript application that takes any given text file and outputs the following:
@@ -20,8 +20,13 @@ This is a word counter tech test written in JavaScript. The task was to write a 
 
 ![Mock-up](https://github.com/connie-reinholdsson/word_counter_tech_test/blob/readme-update/images/20170612_121153.jpg)
 
-3. **Node.js vs Browser**: After conducting research and experimenting with both, I decided to use Node as it offers a simple solution to reading and loading files and allows me to easily experiment with syntax in the terminal.
-4. **Testing**: Decided to use Jasmine for its simplicity and easiness to read and interpret the tests.
+3. **Node.js vs Browser**: After conducting research and experimenting with both, I decided to use Node as it offers a simple solution to reading / loading files and allows me to easily experiment with syntax in the terminal.
+4. **Testing**: Decided to use Jasmine for its simplicity and easiness to read / interpret the tests.
+
+### Future improvements
+- Write a ```replaceSpecialCharacters``` method in one line using ```replace```.
+- Use local variables for ```this.words```, ```this.wordCount``` and ```this.primeNumbers```.
+- Find a way to test ```printOutput```.
 
 ### Technologies
 - JavaScript
@@ -30,8 +35,8 @@ This is a word counter tech test written in JavaScript. The task was to write a 
 - NPM (v5.0.3)
 
 ### Deployment instructions
-1. ```git clone https://github.com/connie-reinholdsson/word_counter_tech_test.git```
-2. Run ```cd word_counter_tech_test```
+1. ```git clone https://github.com/connie-reinholdsson/word_counter.git```
+2. Run ```cd word_counter```
 2. Run ```node src/wordCounter.js``` in terminal
 3. To change text file, replace file in 'book.txt'.
 
