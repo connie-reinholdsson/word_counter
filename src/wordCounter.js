@@ -29,6 +29,13 @@ WordCounter.prototype.countOccurances = function() {
     }
 };
 
+WordCounter.prototype.printOutput = function() {
+  for (var i in this.wordCount) {
+    console.log(i, this.wordCount[i]);
+  }
+};
+
+
 var fs = require('fs');
 fs.readFile('book.txt', 'utf8', function(err, data) {
   if(err) throw err;
@@ -38,5 +45,6 @@ wordCounter.replaceSpecialCharacters();
 wordCounter.convertToLowerCase();
 wordCounter.splitTextIntoWords();
 wordCounter.countOccurances();
-console.log(wordCounter.wordCount);
+wordCounter.printOutput();
+
 });
