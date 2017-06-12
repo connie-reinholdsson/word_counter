@@ -7,8 +7,7 @@ function WordCounter(text){
 }
 
 WordCounter.prototype.replaceSpecialCharacters = function() {
-  this.text = this.text.replace(/(\r\n|\n|\r)/gm," ");
-  this.text = this.text.replace(/[^a-z\d\s]+/gi,'');
+  this.text = this.text.replace(/(\r\n|\n|\r)/gm," ").replace(/[^a-z\d\s]+/gi,'');
 };
 
 WordCounter.prototype.convertToLowerCase = function() {
@@ -31,7 +30,7 @@ WordCounter.prototype.countOccurances = function() {
 };
 
 WordCounter.prototype.storePrimeNumbers = function() {
-  for(var i = 1; i <= 100 ; i++) {
+  for(var i = 2; i <= 100 ; i++) {
           var isPrime = true;
           for(var j = 2; j < i; j++) {
               if(i % j === 0){
