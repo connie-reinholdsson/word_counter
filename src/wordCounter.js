@@ -64,5 +64,6 @@ wordCounter.replaceSpecialCharacters();
 wordCounter.convertToLowerCase();
 wordCounter.splitTextIntoWords();
 wordCounter.countOccurances();
+wordCounter.storePrimeNumbers();
 wordCounter.printOutput();
 });
