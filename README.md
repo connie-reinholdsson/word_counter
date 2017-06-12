@@ -10,24 +10,6 @@ This is a word counter written in JavaScript. The task was to write a JavaScript
 1. Punctuation and capitalisation can be ignored.
 2. TDD is expected.
 
-#### Final Result:
-
-![Terminal screenshot](https://github.com/connie-reinholdsson/word_counter_tech_test/blob/readme-update/images/Screenshot%202017-06-12%2016.22.06.png)
-
-### My approach
-1. **User Stories**: Broke down problem into user stories.
-2. **Mock-up**: Mock-up page of how I imagine the final product would look, (see image below).
-
-![Mock-up](https://github.com/connie-reinholdsson/word_counter_tech_test/blob/readme-update/images/20170612_121153.jpg)
-
-3. **Node.js vs Browser**: After conducting research and experimenting with both, I decided to use Node as it offers a simple solution to reading / loading files and allows me to easily experiment with syntax in the terminal.
-4. **Testing**: Decided to use Jasmine for its simplicity and easiness to read / interpret the tests.
-
-### Future improvements
-- Write a ```replaceSpecialCharacters``` method in one line using ```replace```.
-- Use local variables for ```this.words```, ```this.wordCount``` and ```this.primeNumbers```.
-- Test ```printOutput``` with Jasmine.
-
 ### Technologies
 - JavaScript
 - Node.js (v8.1.0)
@@ -39,6 +21,23 @@ This is a word counter written in JavaScript. The task was to write a JavaScript
 2. Run ```cd word_counter``` in terminal
 2. Run ```node src/wordCounter.js``` in terminal
 3. To change text file, replace file in 'book.txt'.
+
+### My approach
+1. **User Stories**: Broke down problem into user stories.
+2. **Mock-up**: Mock-up page of how I imagine the final product would look, (see image below).
+
+![Mock-up](https://github.com/connie-reinholdsson/word_counter_tech_test/blob/readme-update/images/20170612_121153.jpg)
+
+3. **Node.js vs Browser**: After conducting research and experimenting with both, I decided to use Node as it offers a simple solution to reading / loading files and allows me to easily experiment with syntax in the terminal.
+4. **Testing**: Decided to use Jasmine for its simplicity and easiness to read / interpret the tests.
+5. **Final result**:
+
+![Terminal screenshot](https://github.com/connie-reinholdsson/word_counter_tech_test/blob/readme-update/images/Screenshot%202017-06-12%2016.22.06.png)
+
+### Future improvements
+- Write a ```replaceSpecialCharacters``` method in one line using ```replace```.
+- Use local variables for ```this.words```, ```this.wordCount``` and ```this.primeNumbers```.
+- Test ```printOutput``` with Jasmine.
 
 ### User Stories
 ```
