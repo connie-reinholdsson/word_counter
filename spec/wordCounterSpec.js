@@ -33,4 +33,14 @@ describe('wordCounter', function(){
       expect(wordCounter.words).toEqual(["Once", "upon", "a", "time", "there", "was", "a", "dog", "called", "Otto"]);
     });
   });
+
+  describe('countOccurances', function(){
+    it('counts occurences for each word and creates an object', function(){
+      wordCounter.replaceSpecialCharacters();
+      wordCounter.convertToLowerCase();
+      wordCounter.splitTextIntoWords();
+      wordCounter.countOccurances();
+      expect(wordCounter.wordCount).toEqual({"once" : 1, "upon" : 1, "a" : 2, "time" : 1, "there" : 1, "was" : 1, "dog" : 1, "called" : 1, "otto" : 1});
+    });
+  });
 });
