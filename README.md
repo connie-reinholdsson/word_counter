@@ -19,9 +19,11 @@ This is a word counter tech test written in JavaScript. The task is to write a J
 3. **Node.js vs Browser**: After conducting research and experimenting with both, I decided to use Node as it offers a simple solution to reading and loading files and allows me to easily experiment with syntax in the terminal.
 4. **Testing**: Decided to use Jasmine for its simplicity and easiness to read and interpret the tests.
 
-### Key features
-
 ### Technologies
+- JavaScript
+- Node.js (v8.1.0)
+- Jasmine (v.2.6.3)
+- NPM (v5.0.3)
 
 ### Deployment instructions
 
