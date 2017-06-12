@@ -17,6 +17,7 @@ This is a word counter tech test written in JavaScript. The task is to write a J
 ![Mock-up](https://github.com/connie-reinholdsson/word_counter_tech_test/blob/readme/images/20170612_121153.jpg)
 
 3. **Node.js vs Browser**: After conducting research and experimenting with both, I decided to use Node as it offers a simple solution to reading and loading files and allows me to easily experiment with syntax in the terminal.
+4. **Testing**: Decided to use Jasmine for its simplicity and easiness to read and interpret the tests.
 
 ### Key features
 
